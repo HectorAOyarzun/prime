@@ -9,7 +9,8 @@
     rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
     crossorigin="anonymous">
     <!--css style -->
-    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="./css/main.css"> 
+    
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +18,9 @@
     <title>Gestionaprev</title>
 </head>
 <body>
-<div class="container__grid__index">
- <header class="content__nav__menu">      
+  //container__grid__index habia
+<div class="container__grid">
+ <header class="nav">      
        <nav class="navbar navbar-expand-lg style__navbar">
   <div class="container-fluid">
     <a class="navbar-brand style__navbar__logo" href="#"><img src="./assets/Logo.jpg"></a>
@@ -53,7 +55,7 @@
   </div>
 </nav>         
 </header>
-<main class="container__home" >
+<main class="content" >
     <section class="img__header"></section>  
 
     <section class="collage__index">
@@ -61,7 +63,7 @@
     
       <div class="collage__index__column-1"> 
         <img src="./assets/reach.jpg" width="100%">
-        <div class="row__column"> 
+        <div class="collage__index__row"> 
         <img src="./assets/cosntruccion.jpg" width="60%" >
         <img src="./assets/inspeccion.jpg" width="40%" >
         </div>
@@ -73,7 +75,7 @@
           <p>No busques mas, nosotros te entregamos la mejor opción.</p>
         </div>
           
-        <div class="row__column">
+        <div class="collage__index__row">
         <img src="./assets/enfierradura-2.JPG" width="50%">
         <img src="./assets/cosntruccion.jpg" width="50%">
         </div>
@@ -81,7 +83,7 @@
 
         <div class="collage__index__column-3">
          <img src="./assets/vias.jpg" width="100%">
-        <div class="row__column">                          
+        <div class="collage__index__row">                          
         <img src="./assets/Transporte.jpg" width="60%">
         <img src="./assets/bodega.jpg" width="40%">
         </div>
@@ -94,7 +96,7 @@
       
 
  
-    <div class="back__color"   >
+    <section class="carousel__service"   >
     <div id="carouselExampleCaptions" class="carousel slide carousel__rubros">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -102,7 +104,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
        
-  <div class="carousel-inner width__carousel">
+  <div class="carousel-inner carousel__service__width">
           <div class="carousel-item active" data-bs-interval="10000">
            <a href="./pages/construccion.html"><img   src="./assets/cosntruccion.jpg"
              class="d-block w-100" alt="Construcción">
@@ -135,8 +137,8 @@
                 solo aumenta la seguridad, sino que también mejora la logística de entrega 
                 de una compañía.</p></a>
             </div>
-          </div>
-       </div>
+          </section>
+      <!-- </div>-->
  
    
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -150,8 +152,8 @@
 
     </div>
   </div>
-  <div class="advice">
-    <section class="advice__description">
+  <section class="advice">
+    <div class="advice__description">
         <div class="advice__description__text">
             <p>
               El servicio de Asesorías en Prevención de Riesgos y Salud Ocupacional está
@@ -185,14 +187,14 @@
         </div>
         
 
-      </section>
-      <div class="advice__description__img">
-          <img class="img-1 "src="./assets/bodega.jpg" alt="Bodega"> 
+      </div>
+      <div class="advice__description__picture">
+          <img src="./assets/bodega.jpg" alt="Bodega"> 
          
-          <img class="img-2"src="./assets/enfierradura-2.JPG" alt="Bodega"> 
+          <img src="./assets/enfierradura-2.JPG" alt="Bodega"> 
         </div>
-   </div>
-
+      </section>
+      <section style="background-color: #e7e7e7;">
    <div class="because">
     <div class="because__title">
       <h2>¿Porqué elegirnos?</h2>
@@ -214,13 +216,13 @@
 
     
    </div> 
-
+</section>
 </main>
   
 <footer class="container__footer">
 
-        <div class="container__footer__column">
-        <section class="footer__column__menu">
+        <section class="container__footer__column">
+        <div>
           <h3>Menu</h3>
           <ul>
           <li><a href="index.html">Inicio</a></li>
@@ -230,8 +232,8 @@
            <li><a  href="./pages/blog.html">Blog</a></li>
           <li><a   href="./pages/contacto.html">Contacto</a> </li>
            </ul>
-        </section>
-        <section class="footer__column__interes">
+          </div>
+        <div>
         <h3>Paginas de interes</h3>
         <ul>
           <li><a  href="https://www.suseso.cl/601/w3-channel.html" target="_blank">Suseso</a></li>
@@ -242,8 +244,8 @@
            <li><a href="https://www.mutual.cl" target="_blank">Mutual</a></li>
            <li><a href="https://www.ist.cl" target="_blank">IST</a></li>
            </ul>
-        </section>
-         <section class="footer__column__contacto">
+          </div>
+         <div>
             <h3>Contacto</h3>
              <ul>
                 <li>
@@ -277,8 +279,8 @@
                     </svg>
                     </a> 
                </div>
-        </section>
-        </div>
+              </div>
+      </section>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 

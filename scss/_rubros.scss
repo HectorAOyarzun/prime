@@ -1,0 +1,35 @@
+.title__service__rubros{
+@include title__rubros;
+}
+.service__explanation{
+@include service__explantion;
+}
+.more__details{
+    display: flex;
+    flex-direction: column;
+    h3{
+        text-align: center;
+        background-color:$color-title-rubros;
+        color: white;
+        font-weight: 600;
+        height: 80px;
+        padding-top: 20px;
+    }
+    &__column{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #cf7c06;
+        li{
+            padding-top: 10px;
+            color:#e3e3e3;
+            font-weight: 300;
+        }
+        p{
+            font-size: 12px;
+            color:black;
+            font-weight: 400;
+        }
+
+    }
+
+}

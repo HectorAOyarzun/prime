@@ -1,0 +1,35 @@
+@media (max-width:700px){
+    .container__grid{
+    display:grid;
+    grid-template-areas: 
+    "links"
+    "content_index"
+    "foot "
+    ;
+}
+.nav{
+    grid-area: links;
+}
+.content{
+    grid-area: content_index;
+}
+.container__footer{
+    grid-area: foot;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    flex-direction: column;
+    &__row{
+         display: flex;
+         flex-direction: column;
+         &__reverse{
+            display: flex;
+            flex-direction: column;
+         }
+
+    }
+}
+
+}
