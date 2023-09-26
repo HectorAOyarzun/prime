@@ -4,3 +4,19 @@
 $color-navbar:#000222;
 $color-footer:#000222;
 $color-title-rubros:#120033;
+
+//mapas
+
+//agrupar estilos-declarar y estilar
+$redes-sociales:(
+        //red-s       :  color
+        linkedin:#0000ff,
+        whatsapp: #00b938,
+        facebook:#0000ff,
+        envelope:rgb(190, 54, 190),
+);
+@each $red-s, $color in $redes-sociales{
+    .redes-#{$red-s}{
+        color: $color
+    }
+}

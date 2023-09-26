@@ -19,6 +19,9 @@
      }
      li a:hover{
         color:#ec0e37;
-
+     }
+     &__footer__rrss{
+        display: flex;
+        justify-content: space-evenly;
      }
 }

@@ -4,6 +4,22 @@ List Variables
 /*
 Primero van las variables
 */
+.redes-linkedin {
+  color: #0000ff;
+}
+
+.redes-whatsapp {
+  color: #00b938;
+}
+
+.redes-facebook {
+  color: #0000ff;
+}
+
+.redes-envelope {
+  color: rgb(190, 54, 190);
+}
+
 .container__grid {
   display: grid;
   grid-template-areas: "links links links" "content content content" "content content content" "foot foot foot";
@@ -238,6 +254,10 @@ main {
 }
 .container__footer__column li a:hover {
   color: #ec0e37;
+}
+.container__footer__column__footer__rrss {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .title__service__rubros {
