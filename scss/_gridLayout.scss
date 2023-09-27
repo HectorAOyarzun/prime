@@ -1,0 +1,19 @@
+.container__grid{
+    display:grid;
+    grid-template-areas: 
+    "links links links"
+    "content content content"
+    "content content content"
+    "foot foot foot"
+    ;
+}
+.nav{
+    grid-area: links;
+}
+.content{
+    grid-area: content;
+}
+.container__footer{
+    grid-area: foot;
+}
+
