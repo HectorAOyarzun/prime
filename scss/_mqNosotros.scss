@@ -1,0 +1,105 @@
+@media (max-width:700px){
+    .container__grid{
+    display:grid;
+    grid-template-areas: 
+    "links"
+    "content_index"
+    "foot "
+    ;
+}
+.nav{
+    grid-area: links;
+}
+.content{
+    grid-area: content_index;
+}
+.container__footer{
+    grid-area: foot;
+}
+.explanation__us{
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding:50px 50px 50px 50px;
+}
+.explanation__us__img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+.explanation__us__img img{
+    border-radius: 5px;
+    justify-content: center;
+    width: 100%;
+}
+.explanation__us__text{
+    margin:20px 0px 20px 0px;
+}
+.explanation__us__text p{
+    text-align: justify;
+    padding-top: 30px;
+}
+.more__details__about__vision{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px 50px 50px 50px;
+}
+.more__details__about__vision__img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.more__details__about__vision__img img{
+   border-radius: 5px;
+   width: 100%;
+}
+.more__details__about__vision__text{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.more__details__about__vision__text h2{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+.more__details__about__vision__text  p{
+    text-align: justify;
+    padding-top: 20px;
+}
+.more__details__about__mision{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 50px;
+}
+.more__details__about__mision__img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.more__details__about__mision__img img{
+   border-radius: 5px;
+   width: 100%;
+}
+.more__details__about__mision__text{
+    display: flex;
+    flex-direction: column;
+    padding:0px 0px 0px 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.more__details__about__mision__text h2{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+.more__details__about__mision__text  p{
+    text-align: justify;
+    padding-top: 20px;
+
+}
+}

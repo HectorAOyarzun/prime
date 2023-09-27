@@ -7,12 +7,24 @@
     "foot foot foot"
     ;
 }
+<<<<<<< HEAD
 .nav{
     grid-area: links;
 }
 .content{
     grid-area: content;
 }
+=======
+//content_nav_menu
+.nav{
+    grid-area: links;
+}
+//content home ect
+.content{
+    grid-area: content;
+}
+//content footer
+>>>>>>> sass
 .container__footer{
     grid-area: foot;
 }

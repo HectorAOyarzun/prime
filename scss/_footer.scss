@@ -1,0 +1,27 @@
+.container__footer__column{
+     display:flex;
+     justify-content: space-around;
+     background-color: #0a0135;
+     padding:20px 0px 20px 0px;
+     h3{
+         color: #2ae8b5;
+     }
+     ul{
+        padding: 0px;
+     }
+     li{
+        list-style: none;
+        padding-top: 20px;
+     }
+     li a{
+        text-decoration: none;
+        color: white;
+     }
+     li a:hover{
+        color:#ec0e37;
+     }
+     &__footer__rrss{
+        display: flex;
+        justify-content: space-evenly;
+     }
+}

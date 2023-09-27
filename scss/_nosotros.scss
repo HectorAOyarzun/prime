@@ -1,0 +1,98 @@
+.title__about{
+    @include title__rubros;
+
+}
+.explanation__us{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b46e05;
+    padding-top:40px;
+   &__img{
+         display: flex;
+         width: 100%;
+         align-items: center;
+         padding: 0px 0px 0px 50px;
+         img{
+              justify-content: center;
+         }
+   }
+   &__text{
+        display: flex;
+        flex-direction: column;
+        margin:0px 50px 20px 20px;
+        h3{
+          font-size: 20px;
+          color:#ffffff;  
+        }
+        h2{
+          font-size: 20px;
+          color:#ffffff;
+        }
+        p{
+          text-align: justify;
+          padding-top: 30px;
+          color:#ffffff;
+        }
+   }
+}
+.more__details__about__vision{
+    display: flex;
+    flex-direction: row;
+    padding: 200px 0px 200px 0px;
+    background-color: #000150;
+    &__img{
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0px 50px;
+        img{
+             border-radius: 20px;  
+        }
+    }
+     &__text{
+        display: flex;
+        flex-direction: column;
+        padding:0px 50px 0px 50px;
+        h2{
+            text-align: center;
+            font-size: 40px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        p{
+            text-align: justify;
+            padding-top: 20px;
+            color:#ffffff;
+        }
+    }
+}
+.more__details__about__mision{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 200px 0px 200px 0px;
+    background-color: #b73b00de;
+    &__img{
+        display: flex;
+        align-items: center;
+        padding: 0px 50px 0px 0px;
+        img{
+             border-radius: 20px;  
+        }
+    }
+     &__text{
+        display: flex;
+        flex-direction: column;
+        padding:0px 50px 0px 50px;
+        h2{
+            text-align: center;
+            font-size: 40px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        p{
+            text-align: justify;
+            padding-top: 20px;
+            color:#ffffff;
+        }
+    }
+}

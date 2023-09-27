@@ -1,0 +1,31 @@
+/*
+List Variables
+*/
+
+
+/*
+Primero van las variables
+*/
+@import './variables';
+@import './gridLayout';
+@import './mixins';
+
+
+/*
+Layout 
+*/
+@import './header';
+@import './contentIndex';
+@import './footer';
+@import './rubros';
+@import './nosotros';
+@import './service';
+@import './plans';
+/*
+Media queries
+*/
+@import './mqContentIndex';
+@import './mqNosotros';
+@import './mqServicios';
+@import './mqPlans';
+@import './mqRubros';
