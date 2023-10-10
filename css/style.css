@@ -303,7 +303,7 @@ main{
     padding-top: 10px;
     color:#747474;
 }
-.title__service__rubros_menu{
+.title__service__rubros__menu{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -331,7 +331,7 @@ main{
     justify-content: center;
     flex-direction: column;  
 }
-.explicacion__servicio{
+.service__explanation__text{
     display: flex;
     flex-flow: wrap;
     justify-content: center;
@@ -737,9 +737,8 @@ HTML planes
 ************** HTML Footer*******************
 ***************************************/
 
-.container__footer__column{
+.container__footer{
     display:flex;
-    
     justify-content: space-around;
     background-color: #0a0135;
     padding:20px 0px 20px 0px;

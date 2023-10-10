@@ -1,0 +1,13 @@
+.container__footer__column{
+     display:flex;
+     justify-content: space-around;
+     background-color: #0a0135;
+     padding:100px 0px 100px 0px;
+  
+     
+     &__footer__rrss{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+     }
+}

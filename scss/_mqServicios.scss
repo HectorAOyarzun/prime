@@ -1,0 +1,39 @@
+@media (max-width:700px){
+    .container__grid{
+    display:grid;
+    grid-template-areas: 
+    "links"
+    "content_index"
+    "foot "
+    ;
+}
+.nav{
+    grid-area: links;
+}
+.content{
+    grid-area: content_index;
+}
+.container__footer{
+    grid-area: foot;
+}
+.title__service{
+    @include title__primary__mobile;
+}
+.content__service{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:30px 0px 30px 0px;
+    &__row{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    }
+    &__col{
+        height: 400px;
+    }
+}
+
+}
