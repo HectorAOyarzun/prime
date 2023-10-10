@@ -202,11 +202,9 @@ main {
   padding-bottom: 30px;
   padding-top: 30px;
   font-size: 32px;
-  background-color: black;
+  background-color: #120033;
   color: white;
   font-weight: 800;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .advice__title p {
   padding-top: 10px;
@@ -294,6 +292,149 @@ main {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.rubros__title {
+  background-image: url(../assets/logistica-2-v3.JPG);
+  width: 100%;
+}
+.rubros__title__service {
+  background-color: rgba(0, 0, 0, 0.5294117647);
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-weight: 800;
+}
+.rubros__title__service h2 {
+  padding: 190px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.rubros__title__service h2 p {
+  color: rgb(122, 122, 122);
+  font-size: 25px;
+}
+
+.transport__title {
+  background-image: url(../assets/transporte-2-v3.JPG);
+  width: 100%;
+}
+.transport__title__service {
+  background-color: rgba(0, 0, 0, 0.5294117647);
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-weight: 800;
+}
+.transport__title__service h2 {
+  padding: 190px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.transport__title__service h2 p {
+  color: rgb(122, 122, 122);
+  font-size: 25px;
+}
+
+.construction__title {
+  background-image: url(../assets/construccion-v3.JPG);
+  width: 100%;
+}
+.construction__title__service {
+  background-color: rgba(0, 0, 0, 0.5294117647);
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-weight: 800;
+}
+.construction__title__service h2 {
+  padding: 190px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.construction__title__service h2 p {
+  color: rgb(122, 122, 122);
+  font-size: 25px;
+}
+
+.nav__rubros {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #026b6f;
+  padding: 20px;
+}
+.nav__rubros__menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.nav__rubros__menu a {
+  text-decoration: none;
+}
+.nav__rubros__menu p {
+  color: white;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.category__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #00023a;
+}
+.category__text h4 {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.category__text ul {
+  color: white;
+}
+.category__img {
+  width: 50%;
+}
+.category__img img {
+  width: 100%;
+  height: 100%;
+}
+.category__reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.category__reverse__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #00023a;
+}
+.category__reverse__text h4 {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.category__reverse__text ul {
+  color: white;
+}
+.category__reverse__img {
+  width: 50%;
+}
+.category__reverse__img img {
+  width: 100%;
+  height: 100%;
 }
 
 .title__service__rubros {
