@@ -3,36 +3,103 @@
     justify-content: center;
     width:100%;
     flex-direction: column;
+    &__title{
+        @include title__primary;
+        padding-top: 77px;
+    }
+        h2{
+            margin-bottom: 0px;
+    }
+     &__nav{
+        display: flex;
+        flex-direction: column;
+        background-color: #017b7b;
+        padding: 30px;
+        padding-top: 90px;
+         h2{
+            display: flex;
+            justify-content: center;
+            color:white;
+            font-weight: 600;
+         }
+        
+    
+    &__sub{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 20px;
+       
+        &__text{
+            display: flex;
+            justify-content: center;
+            flex-direction: column-reverse;
+            a{
+                text-decoration: none;
+            }
+            p{
+                display: flex;
+                flex-direction: column-reverse;
+                padding-top: 10px;
+                color:#a1a1a1;
+                font-size: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+            svg{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    }
     &__row{
         display: flex;
         flex-direction: row;
+        width: 100%;
         h5{
              text-align: center;
              width: 100%;
              font-weight: 700;
         }
         img{
-              width: 400px;
+              width: 50%;
+              border-top: 5px solid white;
+              border-right: 5px solid white;
+              border-bottom: 5px solid white;
+              border-left: 5px solid white;
         }
     }
     &__right{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        background-color: #a15f00;
-        padding: 30px;
+        justify-content: center;
+        width: 50%;
+        background-color:#85858596;
+        padding: 10px;
+        border-top: 5px solid white;
+        border-right: 2.5px solid white;
+        border-bottom: 5px solid white;
+        border-left: 5px solid white;
         li{
             text-align: justify;
             padding: 0px 25px 0px 25px;
             margin: 0px 5px 0px 5px;
         }
+        &__position{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            color: #0505dd;
+}
+        }
         img{
             display: flex;
             flex-direction: row;
 }
-    }
-
+   //
 }
+
+
 .plans{
     display: flex;
     justify-content: center;
@@ -41,6 +108,8 @@
     &__row__reverse{
         display: flex;
         flex-direction: row-reverse;
+        width: 100%;
+       
         h5{
              text-align: center;
              width: 100%;
@@ -48,15 +117,24 @@
              color:white;
         }
         img{
-              width: 400px;
+              width: 50%;
+              border-top: 2.5px solid white;
+              border-right: 2.5px solid white;
+              border-bottom: 5px solid white;
+              border-left: 5px solid white;
         }
     }
     &__reverse{
         display: flex;
         flex-direction: column;
-        width: 100%;
-        background-color: #00045b;
-        padding: 30px;
+        justify-content: center;
+        width: 50%;
+        background-color:#323241;
+        padding: 10px;
+        border-top: 2.5px solid white;
+        border-right: 5px solid white;
+        border-bottom: 2.5px solid white;
+        border-left: 5px solid white;
         li{
             text-align: justify;
             padding: 0px 25px 0px 25px;

@@ -14,7 +14,8 @@ main{
     width: 100%;
     color:white;
     background-color: #000222;
-    /*position: fixed;*/
+    position: fixed;
+    z-index: 1;
 }
 .style__navbar__logo img{
     width: 50px;

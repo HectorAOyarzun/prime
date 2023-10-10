@@ -14,9 +14,24 @@ $redes-sociales:(
         whatsapp: #00b938,
         facebook:#0000ff,
         envelope:rgb(190, 54, 190),
+      
 );
 @each $red-s, $color in $redes-sociales{
     .redes-#{$red-s}{
         color: $color
+    }
+}
+
+$values-company:(
+        //values-s       :  color
+        heart:#680602,
+        arrow: #01571b,
+        people:#02445e,
+       
+      
+);
+@each $values-s, $color1 in $values-company{
+    .values-#{$values-s}{
+        color: $color1
     }
 }

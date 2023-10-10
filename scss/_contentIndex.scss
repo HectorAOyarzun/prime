@@ -8,54 +8,78 @@
         font-weight: 800;
     }
 }
-.main__items{
-    display:flex;
+.main{
+    display: flex;
     flex-direction: column;
     &__title{
         @include title__primary;
     }
-    &__img{
+    &__rubros{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px;
+        &__img{
+        width: 50%;
+        background-color: #c3c3c3;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding-top: 20px;
-        padding-bottom: 50px;
-<<<<<<< HEAD
-     
-=======
-       padding-top: 0cap;
->>>>>>> sass
-        &__one{
-            padding-top: 50px;
-            width: 350px;
-            height: 400px;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-        &__two{
-            width: 350px;
-            height: 400px;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
-        &__three{
-            padding-top: 50px;
-            width: 350px;
-            height: 400px;
-            &:hover{
-                transform: scale(1.1);
-            }
+        align-items: center;
+        justify-content: center;
+        &__img{
+            width: 100%;
         }
     }
+        &__text{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        background-color: #000000;
+        color:white;
+        font-weight: 600;
+        padding: 30px;
+    }
 }
-
-.advice{
+    &__rubros__reverse{
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
+    padding: 5px;
+        &__img{
+        width: 50%;
+        background-color: #c3c3c3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &__img{
+            width: 100%;
+        }
+    }
+        &__text{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        background-color: #000000;
+        color:white;
+        font-weight: 600;
+        padding: 30px;
+    }
+}
+}
+.advice{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #e7e7e7;
+        &__title{
+        width: 100%;
+        @include title__secondary;
+         }
         &__description{
                 display: flex;
                 flex-direction: row-reverse;
@@ -71,6 +95,11 @@
                   p{
                      text-align: justify;
                      }
+                img{
+                    width: 100%;
+                    padding: 0px 90px 0px 90px;
+                }
+                
                  h2{
                     color:#000150;
                     text-align: center;
@@ -83,16 +112,7 @@
                     padding-bottom: 10px;
                    } 
                }
-        &__picture{
-             display:flex;
-             width: 100%;
-             margin-left: 20px;
-             flex-direction: column;
-             img{
-                padding-bottom: 40px;
-                width: 100%;
-             }
-              }
+       
         }
 }    
 .img-3{

@@ -85,6 +85,26 @@
             font-size: 15px;
         }
     }
+@mixin title__secondary{
+    display: flex;
+    flex-direction: column;
+        h2{
+            text-align: center;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            font-size: 32px;
+            background-color: black;
+            color:white;
+            font-weight: 800;
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+        p{
+            padding-top: 10px;
+            color:#747474;
+            font-size: 20px;
+        }
+    }
 @mixin service__explantion{
     display:flex;
     justify-content: center;
