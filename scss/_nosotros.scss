@@ -109,10 +109,18 @@
 .values{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     &__title{
         @include title__secondary;
+        width: 100%;
         h2{
             margin-bottom: 0px;
+            color:white;
+            padding: 50px;
+            font-size: 40px;
+            font-weight: 700;
+          
         }
     }
     &__text{
@@ -130,13 +138,42 @@
             align-items: center;
             padding: 30px 30px 0px 30px ;
             background-color:#ffffff87 ;
+            svg{
+                animation-name: mianimacion;
+                animation-duration:5s;
+                animation-delay:1s;
+                position:relative;
+                animation-timing-function:linear;
+                animation-iteration-count:infinite;
+                @keyframes mianimacion{
+                    0% {donw:0;top:0px;}
+                25%{donw:10px;top:5px;}
+                50% {donw:20px;top:10px;}
+                75% {donw:30px;top:15px;}
+                100% {donw:60px;top:0px;}
+                }
+            }
         }
         h3{
             display: flex;
             justify-content: space-around;
             padding: 20px;
             font-weight: 800;
-            font-family: system-ui;;
+            font-family: system-ui;
+            animation-name: mianimacion2;
+                animation-duration:5s;
+                animation-delay:1s;
+                position:relative;
+                animation-timing-function:linear;
+                animation-iteration-count:infinite;
+                 @keyframes mianimacion2{
+                0% {donw:0;top:0px;}
+                25%{color:blue}
+                50% {color:rgb(0, 102, 185)}
+                75% {color:rgb(66, 51, 204)}
+                100% {color:rgb(6, 6, 115)}
+
+                }
         }
         p{
             color:black;
@@ -163,5 +200,6 @@
             margin:5px 5px 5px 20px;
 
         }
+   
     }
 }

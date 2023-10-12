@@ -77,6 +77,14 @@
             }
             p{
                 color:white;
+                &:hover{
+                    color:#2d2f69;
+                    background-color:#e3e3e330;
+                    transform: scale(1.2);
+                    padding: 5px;
+                    border-radius: 10px;
+                    font-weight: 700;
+                }
             }
     }
 }
@@ -90,7 +98,11 @@
             justify-content: center;
             align-items: center;
             width: 50%;
-            background-color: #00023a;
+            background-color:#323476;
+            margin:10px;
+            &:hover{
+                background-color: #555353;
+            }
             h4{
                 color:white;
                 padding: 30px;
@@ -102,6 +114,7 @@
          }
     &__img{
         width: 50%;
+        margin:10px;
         img{
             width: 100%;
             height: 100%;
@@ -117,7 +130,11 @@
             justify-content: center;
             align-items: center;
             width: 50%;
-            background-color: #00023a;
+            background-color: #57327a;
+            margin:10px;
+            &:hover{
+                background-color: #555353;
+            }
             h4{
                 color:white;
                 padding: 30px;
@@ -129,6 +146,7 @@
          }
     &__img{
         width: 50%;
+        margin:10px;
         img{
             width: 100%;
             height: 100%
@@ -137,38 +155,3 @@
 }
 }
 
-.title__service__rubros{
-@include title__rubros;
-}
-.service__explanation{
-@include service__explantion;
-}
-.more__details{
-    display: flex;
-    flex-direction: column;
-    h3{
-        text-align: center;
-        background-color:$color-title-rubros;
-        color: white;
-        font-weight: 600;
-        height: 80px;
-        padding-top: 20px;
-    }
-    &__column{
-        display: flex;
-        justify-content: space-evenly;
-        background-color: #cf7c06;
-        li{
-            padding-top: 10px;
-            color:#e3e3e3;
-            font-weight: 300;
-        }
-        p{
-            font-size: 12px;
-            color:black;
-            font-weight: 400;
-        }
-
-    }
-
-}

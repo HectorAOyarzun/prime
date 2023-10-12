@@ -16,20 +16,44 @@
 .container__footer{
     grid-area: foot;
 }
+
 .plans{
     display: flex;
-    justify-content: center;
-    width:100%;
-    flex-direction: column;
-    &__row{
-         display: flex;
-         flex-direction: column;
-         &__reverse{
-            display: flex;
-            flex-direction: column;
-         }
 
+   &__nav{
+    display: flex;
+    flex-direction: column;
+
+    &__sub{
+        display: flex;
+        flex-direction: column;
+      }
+   }
+   &__row{
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 100%;
     }
+    &__reverse{
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+    }
+   }
+   &__right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+
+
+}
+.plans__reverse{
+    width: 100%;
+
 }
 
 }
