@@ -22,33 +22,62 @@
         padding: 100px 30px 0px 30px;
     }
 }
-.main__items{
-    display: flex;
-    flex-direction: column;
+.main__title{
+    width: 100%;
+    h2{
+        font-size: 25px;
+        P{
+            font-size: 15px;
+        }
     
+    }    
+}
+.main__rubros{
+    display: flex;
+    flex-direction: column-reverse;
     &__img{
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        margin: 0px;
         img{
-            padding: 20px;
+            width: 100%;
         }
     }
-}
- 
-.carousel__service{
-    margin-left: 0px;
-    margin-right: 0px;
-    img{
-        opacity: 5;
-        height: 200px;
+    &__text{
+        width: 100%;
+        margin:0px;
     }
-
+    &__reverse{
+        display: flex;
+        flex-direction: column-reverse;
+            &__img{
+              width: 100%;
+              margin: 0px;
+        img{
+            width: 100%;
+        }
+    }
+    &__text{
+        width: 100%;
+        margin:0px;
+    }
+    }
 }
+
 .advice{
      display: flex;
     flex-direction: column-reverse;
     align-items: center;
     margin: 20px;
+    &__title{
+        display: flex;
+        flex-direction: column;
+        h2{
+            font-size: 20px;
+            p{
+                font-size: 15px;
+            }
+        }
+    }
     &__description{
         display: flex;
         justify-content: Center;
@@ -67,6 +96,7 @@
     }
    
 }
+
 .because__column{
     display: flex;
     flex-direction: column;
@@ -77,5 +107,20 @@
     justify-content: center;
     text-align: center;
 }
+
+.container__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 }
  

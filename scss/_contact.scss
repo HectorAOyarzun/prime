@@ -1,0 +1,35 @@
+
+.content__contact{
+    background-image: url(../assets/contacto2-v3.JPG);
+    width: 100%;
+   
+}
+
+.form__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 150px;
+    img{
+        border-radius: 50px;
+    }
+    h1{
+        color:black;
+        font-weight: 800;
+        font-size: 50px;
+    }
+    &__input{
+        width: 330px;
+        margin: 10px;
+    }
+    &__btn{
+        background-color:#657474;
+        margin: 50px;
+        &:hover{
+            background-color: rgb(99, 216, 177);
+        }
+    }
+  
+}

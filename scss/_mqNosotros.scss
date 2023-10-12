@@ -16,90 +16,64 @@
 .container__footer{
     grid-area: foot;
 }
-.explanation__us{
-    flex-direction: column-reverse;
-    justify-content: center;
-    padding:50px 50px 50px 50px;
+.front-page h2{
+    content-visibility: hidden;
 }
-.explanation__us__img{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    padding: 0px 0px 0px 0px;
+.front-page p{
+    content-visibility: hidden;
 }
-.explanation__us__img img{
-    border-radius: 5px;
-    justify-content: center;
-    width: 100%;
-}
-.explanation__us__text{
-    margin:20px 0px 20px 0px;
-}
-.explanation__us__text p{
-    text-align: justify;
-    padding-top: 30px;
-}
-.more__details__about__vision{
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 50px 50px 50px 50px;
-}
-.more__details__about__vision__img{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 0px 0px 0px 0px;
-}
-.more__details__about__vision__img img{
-   border-radius: 5px;
-   width: 100%;
-}
-.more__details__about__vision__text{
+.more__about{
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 0px 0px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    &__img{
+        width: 100%;
+    }
+    &__text{
+        width: 100%;
+    }
+    &__reverse{
+        display:flex;
+        flex-direction: column;
+        &__img{
+            width: 100%;
+        }
+        &__text{
+            width: 100%;
+        }
+    }
 }
-.more__details__about__vision__text h2{
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-}
-.more__details__about__vision__text  p{
-    text-align: justify;
-    padding-top: 20px;
-}
-.more__details__about__mision{
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 50px;
-}
-.more__details__about__mision__img{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 0px 0px 0px 0px;
-}
-.more__details__about__mision__img img{
-   border-radius: 5px;
-   width: 100%;
-}
-.more__details__about__mision__text{
+.values{
     display: flex;
     flex-direction: column;
-    padding:0px 0px 0px 0px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    &__title{
+        color:aliceblue;
+        h2{
+            font-size: 20px;
+        }
+        P{
+            font-size: 15px;
+        }
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        &__part{
+            width: 100%;
+        }
+    }
 }
-.more__details__about__mision__text h2{
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-}
-.more__details__about__mision__text  p{
-    text-align: justify;
-    padding-top: 20px;
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    &__text1{
+        padding: 10px;
+    }
+    
 
 }
+
 }
