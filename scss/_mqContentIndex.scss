@@ -35,30 +35,44 @@
 .main__rubros{
     display: flex;
     flex-direction: column-reverse;
-    &__img{
+    &__explication{
         width: 100%;
         margin: 0px;
-        img{
-            width: 100%;
-        }
+        height: 400px;
+      
     }
     &__text{
+        
         width: 100%;
         margin:0px;
+         &__1{
+            font-weight: 300;
+            p{
+                font-size: 20px;
+                display: contents;
+            }
+        }
     }
     &__reverse{
         display: flex;
         flex-direction: column-reverse;
-            &__img{
+            &__explication{
               width: 100%;
               margin: 0px;
-        img{
-            width: 100%;
-        }
+              height: 400px;
+       
     }
     &__text{
         width: 100%;
         margin:0px;
+        &__1{
+            font-weight: 300;
+            margin:10px;
+            p{
+                display: contents;
+                font-size: 20px;
+            }
+        }
     }
     }
 }
@@ -83,15 +97,19 @@
         justify-content: Center;
         width: 100%;
         margin:50px 20px 50px 20px;
+        &__text{
+            width: 100%;
+            img{
+           padding: 0px;
+        }
+        }
         &__picture{
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin:0px;
-        img{
-            display: flex;
-            justify-content: center;
-        }
+        padding: 0px 5px 0px 5px;
+        
          }
     }
    
