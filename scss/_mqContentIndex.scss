@@ -35,18 +35,21 @@
 .main__rubros{
     display: flex;
     flex-direction: column-reverse;
+    
+   
     &__explication{
         width: 100%;
         margin: 0px;
         height: 400px;
+       
       
     }
     &__text{
-        
         width: 100%;
         margin:0px;
          &__1{
             font-weight: 300;
+            
             p{
                 font-size: 20px;
                 display: contents;
@@ -60,14 +63,16 @@
               width: 100%;
               margin: 0px;
               height: 400px;
+             
+             
        
     }
     &__text{
         width: 100%;
-        margin:0px;
+       margin:0px;
         &__1{
             font-weight: 300;
-            margin:10px;
+           
             p{
                 display: contents;
                 font-size: 20px;

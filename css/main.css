@@ -375,8 +375,7 @@ main {
 .because {
   display: flex;
   flex-direction: column;
-  background-color: #df840b;
-  -webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 0, 0% 100px);
+  background-color: #aca6c5;
 }
 .because__title {
   text-align: center;
@@ -1267,7 +1266,6 @@ Media queries
   }
   .main__rubros__reverse__text__1 {
     font-weight: 300;
-    margin: 10px;
   }
   .main__rubros__reverse__text__1 p {
     display: contents;
