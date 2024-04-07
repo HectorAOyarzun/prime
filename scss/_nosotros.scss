@@ -36,12 +36,14 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding-top: 40px;
     &__img{
         display: flex;
         width: 50%;
-        background-color:#323332d6;
+        background-color:white;
         align-items: center;
         justify-content: center;
+  
         h2{
             display: flex;
             position: absolute;
@@ -52,7 +54,7 @@
         }
         img{
             width: 100%;
-        
+              border-radius: 200px 100px 200px 100px;
         }
     }
     &__text{
@@ -71,10 +73,12 @@
         display: flex;
         flex-direction: row-reverse;
         width: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
          &__img{
             display: flex;
             width: 50%;
-            background-color: #cecefd;
+            background-color: white;
             align-items: center;
             justify-content: center;
               h2{
@@ -87,6 +91,7 @@
         }
         img{
             width: 100%;
+            border-radius: 100px 200px 100px 200px;
            
         }
     }
@@ -169,8 +174,8 @@
                  @keyframes mianimacion2{
                 0% {donw:0;top:0px;}
                 25%{color:blue}
-                50% {color:rgb(0, 102, 185)}
-                75% {color:rgb(66, 51, 204)}
+                50% {color:rgb(6, 6, 115)}
+                75% {color:rgb(19, 0, 126)}
                 100% {color:rgb(6, 6, 115)}
 
                 }

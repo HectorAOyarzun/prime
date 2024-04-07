@@ -22,15 +22,15 @@ Primero van las variables
 }
 
 .values-heart {
-  color: #680602;
+  color: #dd5900;
 }
 
 .values-arrow {
-  color: #01571b;
+  color: #022f81;
 }
 
 .values-people {
-  color: #02445e;
+  color: #dd5900;
 }
 
 .container__grid {
@@ -67,6 +67,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
+  overflow: auto;
 }
 
 main {
@@ -86,7 +87,6 @@ main {
 .style__navbar__logo img {
   width: 50px;
   height: 50px;
-  border-radius: 50px;
 }
 
 .style__navbar__li a {
@@ -375,12 +375,13 @@ main {
 .because {
   display: flex;
   flex-direction: column;
-  background-color: #aca6c5;
+  background-color: #da7c03;
 }
 .because__title {
   text-align: center;
   margin-bottom: 60px;
   padding-top: 140px;
+  color: #dbdbdb;
 }
 .because__title h2 {
   font-weight: bolder;
@@ -401,6 +402,31 @@ main {
 .because__reason p {
   text-align: justify;
   font-size: 1rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #684301;
+  border-radius: 50%;
+  background-color: #aca6c5;
+}
+
+.prevencion {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.safe {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #b16c00;
 }
 
 .container__footer {
@@ -447,7 +473,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
 }
 .container__footer__column__footer__rrss {
   display: flex;
@@ -556,7 +582,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: #026b6f;
+  background-color: #000222;
   padding: 20px;
 }
 .nav__rubros__menu {
@@ -572,8 +598,8 @@ main {
   color: white;
 }
 .nav__rubros__menu p:hover {
-  color: #2d2f69;
-  background-color: rgba(227, 227, 227, 0.1882352941);
+  color: #020252;
+  background-color: #a3a3a3;
   transform: scale(1.2);
   padding: 5px;
   border-radius: 10px;
@@ -685,11 +711,12 @@ main {
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding-top: 40px;
 }
 .more__about__img {
   display: flex;
   width: 50%;
-  background-color: rgba(50, 51, 50, 0.8392156863);
+  background-color: white;
   align-items: center;
   justify-content: center;
 }
@@ -703,6 +730,7 @@ main {
 }
 .more__about__img img {
   width: 100%;
+  border-radius: 200px 100px 200px 100px;
 }
 .more__about__text {
   display: flex;
@@ -720,11 +748,13 @@ main {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .more__about__reverse__img {
   display: flex;
   width: 50%;
-  background-color: #cecefd;
+  background-color: white;
   align-items: center;
   justify-content: center;
 }
@@ -738,6 +768,7 @@ main {
 }
 .more__about__reverse__img img {
   width: 100%;
+  border-radius: 100px 200px 100px 200px;
 }
 .more__about__reverse__text {
   display: flex;
@@ -855,10 +886,10 @@ main {
     color: blue;
   }
   50% {
-    color: rgb(0, 102, 185);
+    color: rgb(6, 6, 115);
   }
   75% {
-    color: rgb(66, 51, 204);
+    color: rgb(19, 0, 126);
   }
   100% {
     color: rgb(6, 6, 115);
@@ -1020,6 +1051,8 @@ main {
   padding: 190px;
   font-weight: 800;
   margin-bottom: 0px;
+  color: white;
+  font-size: 40px;
 }
 .content__title__service h2 p {
   color: rgb(169, 169, 173);
@@ -1036,14 +1069,14 @@ main {
 .plans__nav {
   display: flex;
   flex-direction: column;
-  background-color: #017b7b;
+  background-color: #000222;
   padding: 30px;
   padding-top: 90px;
 }
 .plans__nav h2 {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #ff6900;
   font-weight: 600;
 }
 .plans__nav__sub {
@@ -1064,13 +1097,13 @@ main {
   display: flex;
   flex-direction: column-reverse;
   padding-top: 10px;
-  color: #a1a1a1;
+  color: white;
   font-size: 20px;
   justify-content: center;
   align-items: center;
 }
 .plans__nav__sub__text p:hover {
-  color: white;
+  color: #ff6900;
   transform: scale(1.1);
 }
 .plans__nav__sub__text svg {

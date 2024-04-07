@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Libro</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Estilos del libro */
+    .libro {
+      width: 300px;
+      height: 300px;
+      background-color: #fff;
+      border: 1px solid #000;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+
+    /* Estilos de la portada */
+    .portada {
+      width: 100%;
+      height: 100%;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/GIF_de_un_gato_saludando.gif/1200px-GIF_de_un_gato_saludando.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* Estilos de las páginas */
+    .pagina {
+      width: 300px;
+      height: 300px;
+      background-color: #fff;
+      border: 1px solid #000;
+      border-radius: 50px;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    * {
+  box-sizing: border-box;
+}
+
+/* Estilos del libro */
+.libro {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Estilos de la portada */
+.portada {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/GIF_de_un_gato_saludando.gif/1200px-GIF_de_un_gato_saludando.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Estilos de las páginas */
+.pagina {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+  </style>
+</head>
+<body>
+  <div class="libro">
+    <div class="portada">
+    </div>
+    <div class="pagina"></div>
+    <div class="pagina"></div>
+    <div class="pagina"></div>
+    <div class="pagina"></div>
+  </div>
+
+  <script>
+    // Cuando se hace clic en el libro, se abre
+    function abrirLibro() {
+      const libro = document.querySelector(".libro");
+      const paginas = document.querySelectorAll(".pagina");
+
+      for (const pagina of paginas) {
+        pagina.style.opacity = 1;
+      }
+    }
+
+    libro.addEventListener("click", abrirLibro);
+  </script>
+</body>
+</html>

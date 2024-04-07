@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #026b6f;
+    background-color: #000222;
     padding: 20px;
     &__menu{
             display: flex;
@@ -78,9 +78,9 @@
             p{
                 color:white;
                 &:hover{
-                    color:#2d2f69;
-                    background-color:#e3e3e330;
-                    transform: scale(1.2);
+                    color:#020252;
+                    background-color:#a3a3a3;
+                   transform: scale(1.2);
                     padding: 5px;
                     border-radius: 10px;
                     font-weight: 700;

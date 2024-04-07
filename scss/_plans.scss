@@ -12,6 +12,8 @@
             padding: 190px;
             font-weight: 800;
             margin-bottom: 0px;
+            color:white;
+            font-size: 40px;
              p{
                 color:rgb(169, 169, 173);
                 font-size: 25px;
@@ -32,13 +34,13 @@
      &__nav{
         display: flex;
         flex-direction: column;
-        background-color: #017b7b;
+        background-color: #000222;
         padding: 30px;
         padding-top: 90px;
          h2{
             display: flex;
             justify-content: center;
-            color:white;
+            color:#ff6900;
             font-weight: 600;
          }
         
@@ -61,12 +63,12 @@
                 display: flex;
                 flex-direction: column-reverse;
                 padding-top: 10px;
-                color:#a1a1a1;
+                color:white;
                 font-size: 20px;
                 justify-content: center;
                 align-items: center;
                  &:hover{
-                color:white;
+                color:#ff6900;
                 transform: scale(1.1);
                  }
             }
