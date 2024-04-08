@@ -69,22 +69,91 @@
     </nav>         
 </header>
 <main class="content__contact">
-        
-  <form class="form__contact" data-aos="zoom-in-up">
-    <img class="mb-4" src="../assets/Prevesafe_2.png" alt="" width="100" height="100">
-    <h1 class="h3 mb-3 fw-normal ">Contacto</h1>
-
-    <div class="form-floating">
-      <input type="email" class="form-control form__contact__input " id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email</label>
-    </div>
-    <div class="form-floating">
-      <input type="password" class="form-control form__contact__input" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Nombre</label>
-    </div>
-    <button class="w-25 btn btn-lg form__contact__btn " type="submit">Sign in</button>
    
-  </form> 
+  
+  
+<section class="form__contacto" id="section">
+  <form action="https://formsubmit.co/hector.oyarzun.ext@soprole.cl" method="POST">
+  
+
+  <div class="campocontacto">
+    <h3>Escribenos</h3>
+    <label class="campocontacto__text" for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" required>
+  </div>
+
+  <div class="campocontacto">
+    <label class="campocontacto__text" for="mail">Correo electrónico</label>
+    <input type="email" name="mail" id="correo" required>
+  </div>
+
+  <div class="campocontacto">
+    <label class="campocontacto__text" for="asunto">Asunto</label>
+    <input type="text" name="asunto" id="asunto" required>
+  </div>
+
+  <div class="campocontacto">
+    <label class="campocontacto__text" for="mensaje">Mensaje</label>
+    <textarea name="mensaje" id="mensaje" required></textarea>
+  </div>
+
+  <input  type="submit" value="Enviar">
+    <input type="hidden" name="_next" value="https://hectoraoyarzun.github.io/Portafolio_Hector_Oyarzun/pages/experiencia.html">
+  <input type="hidden" name="_captcha" value="false">
+  </form>
+</section>  
+
+
+
+ <!--<section class="call">
+      <section class="callme">
+        <a class=" btn  callme__button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <p>Contáctame</p>
+        </a>
+      </section>     
+</section>
+    
+           
+
+
+
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content" style="background-color: #f5f5dce3;">
+              <div class="modal-header type__service__modal">
+                <h1 class="modal-title fs-5 style-form" id="exampleModalLabel">FORMULARIO DE CONTACTO</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                  <div class="modal-body type__service__body">
+<section id="section">
+  <form action="https://formsubmit.co/hectorcevalogistic@gmail.com" method="POST">
+  
+
+  <div class="campo">
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre" required>
+  </div>
+
+  <div class="campo">
+    <label for="mail">Correo electrónico</label>
+    <input type="email" name="mail" id="correo" required>
+  </div>
+
+  <div class="campo">
+    <label for="asunto">Asunto</label>
+    <input type="text" name="asunto" id="asunto" required>
+  </div>
+
+  <div class="campo">
+    <label for="mensaje">Mensaje</label>
+    <textarea name="mensaje" id="mensaje" required></textarea>
+  </div>
+
+  <input type="submit" value="Enviar">
+    <input type="hidden" name="_next" value="https://hectoraoyarzun.github.io/Portafolio_Hector_Oyarzun/pages/experiencia.html">
+  <input type="hidden" name="_captcha" value="false">
+  </form>
+</section> --> 
 </main>
         
 <footer class="container__footer">
